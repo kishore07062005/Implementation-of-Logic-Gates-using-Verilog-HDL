@@ -123,14 +123,26 @@ Y= A⊕B
 5.	For different input combinations, generate the timing diagram.
 
 ## Program:
-
+```verilog
+module Exp1(a,b,andgate,notgate,orgate,nandgate,norgate,xorgate,xnorgate);
+input a,b;
+output andgate,orgate,notgate,norgate,nandgate,xorgate,xnorgate;
+and(andgate,a,b);
+or(orgate,a,b);
+not(notgate,a);
+nand(nandgate,a,b);
+nor(norgate,a,b);
+xor(xorgate,a,b);
+xnor(xnorgate,a,b);
+endmodule
+```
 
 ## RTL Schematic:
+![image](https://github.com/RahulMR2005/ex1final/assets/145525365/cd4af3ee-5355-41ed-9936-e39930b4ba49)
 
 
 ## Timing Diagram:
-
-
+![image](https://github.com/RahulMR2005/ex1final/assets/145525365/5481fc71-787b-4f17-bed1-7facb55a8e8a)
 
 
 ## Result:
