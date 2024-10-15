@@ -4,7 +4,7 @@ REG NO: 2305002012
 
 Date: 15/10/2024
 # Implementation of Logic Gates using Verilog HDL
-## Aim
+## Aim:
 To implement and to verify the truth table in Verilog HDL for the following logic gates 
 1.	AND gate
 2.	 OR gate
@@ -18,7 +18,7 @@ To implement and to verify the truth table in Verilog HDL for the following logi
 1.	Laptop with Quartus software and modelsim software
 
 ## Theory
-## Introduction
+## Introduction:
 Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. 
 
 
