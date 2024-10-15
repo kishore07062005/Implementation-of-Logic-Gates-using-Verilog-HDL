@@ -1,3 +1,8 @@
+NAME: KISHORE.M
+
+REG NO: 2305002012
+
+Date: 15/10/2024
 # Implementation of Logic Gates using Verilog HDL
 ## Aim
 To implement and to verify the truth table in Verilog HDL for the following logic gates 
